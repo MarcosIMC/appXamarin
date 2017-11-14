@@ -12,7 +12,7 @@ namespace App1.Constantes
 
         public const String URL_INICIOSESION = "/api/admin/login/";
 
-        public const String URL_GET_ALL_USERS = "/api/usuarios/getAllUsers";
+        public const String URL_GET_ALL_USERS = "api/usuarios/getAllUsers";
 
         public const String URL_ADD_USER = "/api/usuarios/addUser";
 
