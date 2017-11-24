@@ -30,3 +30,8 @@ D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\obj\Debug\App1.Views.Home.xa
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\obj\Debug\App1.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\obj\Debug\App1.pdb
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\Plugin.Settings.Abstractions.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\Plugin.Settings.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\Plugin.Settings.xml
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\Plugin.Settings.Abstractions.pdb
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\Plugin.Settings.Abstractions.xml

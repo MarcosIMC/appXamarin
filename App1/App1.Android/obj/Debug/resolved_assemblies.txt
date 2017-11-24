@@ -4,6 +4,8 @@ D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\as
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Plugin.Connectivity.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Plugin.Settings.Abstractions.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Plugin.Settings.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Net.Http.Extensions.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Net.Http.Primitives.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll

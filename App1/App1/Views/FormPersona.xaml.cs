@@ -31,7 +31,7 @@ namespace App1.Views
         {
             Usuario user = createObject();
 
-            insertarUser(user);
+            insertUser(user);
 
             cleanFields();
         }
@@ -50,7 +50,7 @@ namespace App1.Views
             return usuario;
         }
 
-        private async void insertarUser(Usuario user)
+        private async void insertUser(Usuario user)
         {
             HttpClient client;
             String url = Constantes.cons.URL_ADD_USER;

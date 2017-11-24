@@ -1,4 +1,6 @@
-﻿using System;
+﻿using App1.Helpers;
+using App1.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +16,17 @@ namespace App1
             InitializeComponent();
 
             //MainPage = new App1.MainPage();
-            MainPage = new NavigationPage(new MainPage());
+
+            //Si estamos logueados vamos directamente al inicio
+            if (Settings.IsLoggedIn)
+            {
+                MainPage = new NavigationPage(new Home());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new MainPage());
+            }
+            
         }
 
         protected override void OnStart()

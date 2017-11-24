@@ -78,3 +78,14 @@ D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\as
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\res\drawable-xxhdpi\ic_save_white_24dp.png
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\res\drawable-xhdpi\ic_save_white_24dp.png
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\res\drawable-hdpi\ic_save_white_24dp.png
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\Plugin.Settings.Abstractions.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\Plugin.Settings.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\Plugin.Settings.pdb
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\Plugin.Settings.xml
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\Plugin.Settings.Abstractions.pdb
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\Plugin.Settings.Abstractions.xml
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\Plugin.Settings.dll.mdb
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\Plugin.Settings.Abstractions.dll.mdb
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Plugin.Settings.Abstractions.dll.mdb
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Plugin.Settings.dll.mdb
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\res\drawable\logout.png

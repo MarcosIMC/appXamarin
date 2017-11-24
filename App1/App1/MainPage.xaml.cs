@@ -1,4 +1,5 @@
-﻿using App1.Pojos;
+﻿using App1.Helpers;
+using App1.Pojos;
 using App1.Views;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -78,7 +79,7 @@ namespace App1
                     }
                     else
                     {
-                        Debug.WriteLine("Response Server: " + result);
+                        Settings.IsLoggedIn = true;
                         ((NavigationPage)this.Parent).PushAsync(new Home());
                     }
                 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App1.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,14 +13,22 @@ namespace App1.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Home : ContentPage
 	{
-		public Home ()
+
+        public Home ()
 		{
 			InitializeComponent ();
             Title = "Panel de control";
 
             btnAlta.Clicked += btnAlta_Clicked;
             btnList.Clicked += btnList_Clicked;
+            logout.Clicked += Logout_Clicked;
 		}
+
+        private void Logout_Clicked(object sender, EventArgs e)
+        {
+            Settings.IsLoggedIn = false;
+            ((NavigationPage)this.Parent).PushAsync(new MainPage());
+        }
 
         private void btnList_Clicked(object sender, EventArgs e)
         {
