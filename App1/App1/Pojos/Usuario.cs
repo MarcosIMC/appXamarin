@@ -8,7 +8,7 @@ namespace App1.Pojos
 {
     class Usuario
     {
-        private String nombre, apellidos, email, dni, dniUserAdmin, role;
+        private String nombre, apellidos, email, dni, dniAdmin, role;
 
         public Usuario(String dni, String nombre, String apellidos, String email, String dniAdmin, String role)
         {
@@ -16,7 +16,7 @@ namespace App1.Pojos
             this.nombre = nombre;
             this.apellidos = apellidos;
             this.email = email;
-            this.dniUserAdmin = dniAdmin;
+            this.dniAdmin = dniAdmin;
             this.role = role;
         }
 
@@ -46,8 +46,8 @@ namespace App1.Pojos
 
         public string DniAdmin
         {
-            get { return dniUserAdmin; }
-            set { dniUserAdmin = value; }
+            get { return dniAdmin; }
+            set { dniAdmin = value; }
         }
 
         public string Role

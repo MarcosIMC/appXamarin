@@ -26,39 +26,112 @@ namespace App1
             btnIniciarSesion.Clicked +=  bntInicioSesion_ClickedAsync;
         }
 
-        private async void bntInicioSesion_ClickedAsync(object sender, EventArgs e)
+        private void bntInicioSesion_ClickedAsync(object sender, EventArgs e)
         {
 
-            List<Usuario> valores =await descargarDatosAsync();
+            //descargarDatosAsync();
 
-            if (valores != null)
+            doLogin(usuario.Text, pass.Text);
+//((NavigationPage)this.Parent).PushAsync(new Home());
+            /*if (valores != null)
             {
                 //Inicio de peticion server
-                ((NavigationPage)this.Parent).PushAsync(new Home());
+                
             }
             else
             {
                 Debug.WriteLine("Es null");
-            }
+            }*/
 
 
         }
 
-        private async Task<List<Usuario>> descargarDatosAsync()
+        private async void doLogin(String user, String pass)
         {
             if (NetworkCheck.IsInternet())
             {
+
+                HttpClient client;
+                String url = "";
+
                 try
                 {
-                    String url1 = Constantes.cons.URL_BASE + Constantes.cons.URL_GET_ALL_USERS;
-                    var client1 = new HttpClient();
-                    Debug.WriteLine("Antes de await1");
-                    var response1 = await client1.GetAsync(url1);
 
-                    string result = await response1.Content.ReadAsStringAsync();
+                    client = new HttpClient();
+                    url = string.Format(Constantes.cons.URL_INICIOSESION);
+
+                    Debug.WriteLine("Antes de await");
+
+                    var response = await client.GetAsync(Constantes.cons.URL_BASE + url+"?email="+user+"&pass="+pass);
+
+
+
+                    Debug.WriteLine("Despues de await "+ Constantes.cons.URL_BASE + url + "?email=" + user + "&pass=" + pass);
+
+                    var result = response.Content.ReadAsStringAsync().Result;
+
+                    if (String.IsNullOrEmpty(result) || result.Length.Equals(""))
+                    {
+                        await DisplayAlert("Error", "Los datos introducidos no son correctos", "Aceptar");
+
+                        
+                    }
+                    else
+                    {
+                        Debug.WriteLine("Response Server: " + result);
+                        ((NavigationPage)this.Parent).PushAsync(new Home());
+                    }
+                }
+                catch (HttpRequestException e)
+                {
+                    Debug.WriteLine("Excepcion: " + e.Message);
+                }
+
+            }
+        }
+
+        private async void descargarDatosAsync()
+        {
+            if (NetworkCheck.IsInternet())
+            {
+
+                HttpClient client;
+                String url = "";
+
+                try
+                {
+
+                    client = new HttpClient();
+                    url = string.Format(Constantes.cons.URL_GET_ALL_USERS);
+
+                    Debug.WriteLine("Antes de await");
+
+                    var response = await client.GetAsync(Constantes.cons.URL_BASE + url);
+
+                    Debug.WriteLine("Despues de await");
+
+                    var result = response.Content.ReadAsStringAsync().Result;
+
+                    if (String.IsNullOrEmpty(result))
+                    {
+                        await DisplayAlert("Error", "No se obtuvo respuesta del server", "Aceptar");
+                    }
+                    else
+                    {
+                        Debug.WriteLine("Response Server: " + result);
+                    }
+
+                    /* String url1 = Constantes.cons.URL_BASE + Constantes.cons.URL_GET_ALL_USERS;
+                     Debug.WriteLine("URL " + url1);
+                     var client1 = new HttpClient();
+                     Debug.WriteLine("Antes de await1");
+                     var response1 = await client1.GetAsync(url1);
+
+                     string result = await response1.Content.ReadAsStringAsync();*/
 
                     Debug.WriteLine("eee: " + result);
-                }catch(HttpRequestException e)
+                }
+                catch (HttpRequestException e)
                 {
                     Debug.WriteLine("Excepcion: " + e.Message);
                 }
@@ -66,7 +139,7 @@ namespace App1
             }
 
 
-            List<Usuario> usuarios = null;
+            /*List<Usuario> usuarios = null;
             Debug.WriteLine("Llega al metodo");
             var client = new HttpClient();
             client.MaxResponseContentBufferSize = 256000;
@@ -85,10 +158,11 @@ namespace App1
                 Debug.WriteLine("Despues del content");
                 usuarios = JsonConvert.DeserializeObject<List<Usuario>>(content);
 
-                return usuarios;
+               // return usuarios;
             }
 
-            return usuarios;
+            //return usuarios;*/
         }
     }
 }
+    

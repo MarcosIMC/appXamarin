@@ -42,12 +42,13 @@ D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\as
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
-D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Collections.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Text.Encoding.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.IO.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Runtime.Numerics.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Numerics.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Xml.XmlDocument.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Xml.XDocument.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Collections.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Globalization.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
@@ -61,7 +62,6 @@ D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\as
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.ObjectModel.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
-D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Text.Encoding.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Threading.dll
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll

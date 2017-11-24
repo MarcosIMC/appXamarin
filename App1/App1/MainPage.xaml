@@ -7,8 +7,8 @@
         <StackLayout>
             <Image Source="CapturaLogo.PNG"/>
 
-            <Entry ClassId="usuario" Placeholder="Usuario" Keyboard="Default"/>
-            <Entry ClassId="pass" Placeholder="Contraseña" Keyboard="Default" IsPassword="True"/>
+            <Entry x:Name="usuario" Placeholder="Usuario" Keyboard="Default"/>
+            <Entry x:Name="pass" Placeholder="Contraseña" Keyboard="Default" IsPassword="True"/>
 
             <Button x:Name="btnIniciarSesion" Text="Iniciar Sesión" VerticalOptions="EndAndExpand"></Button> 
         </StackLayout>

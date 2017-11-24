@@ -161,6 +161,18 @@
   <ItemGroup>
     <BundleResource Include="Resources\CapturaLogo.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\save.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_save_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_save_white_2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_save_white_3x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
