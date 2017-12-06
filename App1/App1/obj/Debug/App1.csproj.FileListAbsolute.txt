@@ -35,3 +35,7 @@ D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\Plugin.Settings.dl
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\Plugin.Settings.xml
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\Plugin.Settings.Abstractions.pdb
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\Plugin.Settings.Abstractions.xml
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\PCLStorage.Abstractions.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\PCLStorage.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\PCLStorage.xml
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1\bin\Debug\PCLStorage.Abstractions.xml

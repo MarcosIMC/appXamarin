@@ -110,6 +110,8 @@ class MonoPackageManager_Resources {
 		"App1.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"PCLStorage.Abstractions.dll",
+		"PCLStorage.dll",
 		"Plugin.Connectivity.Abstractions.dll",
 		"Plugin.Connectivity.dll",
 		"Plugin.Settings.Abstractions.dll",

@@ -1,5 +1,6 @@
 ﻿using App1.Pojos;
 using Newtonsoft.Json;
+using PCLStorage;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -22,9 +23,22 @@ namespace App1.Views
 
             Title = "Formulario Usuario";
 
-            //setFieldDniAdmin();
+            setFieldDniAdminAsync();
 
             save.Clicked += Save_Clicked;
+        }
+
+        private async Task setFieldDniAdminAsync()
+        {
+            IFolder rootFolder = FileSystem.Current.LocalStorage;
+            IFolder folder = await rootFolder.GetFolderAsync("dataAdmin");
+
+            IFile file = await folder.GetFileAsync("datas.txt");
+            String adminTxt = await file.ReadAllTextAsync();
+
+            var adminData = JsonConvert.DeserializeObject<Admin>(adminTxt);
+
+            dniAdmin.Text = adminData.Dni;
         }
 
         private void Save_Clicked(object sender, EventArgs e)

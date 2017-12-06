@@ -3,6 +3,7 @@ using App1.Pojos;
 using App1.Views;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using PCLStorage;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -79,6 +80,13 @@ namespace App1
                     }
                     else
                     {
+                        IFolder rootFolder = FileSystem.Current.LocalStorage;
+                        IFolder folder = await rootFolder.CreateFolderAsync("dataAdmin", CreationCollisionOption.OpenIfExists);
+
+                        IFile file = await folder.CreateFileAsync("datas.txt", CreationCollisionOption.ReplaceExisting);
+                        await file.WriteAllTextAsync(result);
+                        
+
                         Settings.IsLoggedIn = true;
                         ((NavigationPage)this.Parent).PushAsync(new Home());
                     }

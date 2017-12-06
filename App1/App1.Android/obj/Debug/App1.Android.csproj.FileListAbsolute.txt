@@ -89,3 +89,7 @@ D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\Plugin.Set
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Plugin.Settings.Abstractions.dll.mdb
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\android\assets\Plugin.Settings.dll.mdb
 D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\obj\Debug\res\drawable\logout.png
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\PCLStorage.Abstractions.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\PCLStorage.dll
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\PCLStorage.xml
+D:\Proyectos\VisualStudio\appXamarin\App1\App1\App1.Android\bin\Debug\PCLStorage.Abstractions.xml
