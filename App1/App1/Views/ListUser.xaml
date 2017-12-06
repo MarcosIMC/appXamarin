@@ -1,9 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="App1.Views.ListUser">
+             x:Class="App1.Views.ListUser"
+             Title="Lista de usuarios">
     <ContentPage.Content>
+        
+        <ListView x:Name="usersList">
 
+            <ListView.ItemTemplate>
+
+                <DataTemplate>
+                    <ViewCell>
+
+                        <StackLayout Orientation="Horizontal">
+
+                            <Label Text="{Binding Nombre}" />
+
+                            <Label Text="{Binding Dni}" />
+
+                        </StackLayout>
+
+                    </ViewCell>
+
+                </DataTemplate>
+                
+            </ListView.ItemTemplate>
+            
+        </ListView>
         
     </ContentPage.Content>
 </ContentPage>

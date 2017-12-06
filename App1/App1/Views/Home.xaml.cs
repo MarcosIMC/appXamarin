@@ -32,7 +32,7 @@ namespace App1.Views
 
         private void btnList_Clicked(object sender, EventArgs e)
         {
-            
+            ((NavigationPage)this.Parent).PushAsync(new ListUser());
         }
 
         private void btnAlta_Clicked(object sender, EventArgs e)
